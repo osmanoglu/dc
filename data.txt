@@ -1,0 +1,11 @@
+DEĞİŞKEN1| Nezaket BEYOĞLU
+DEĞİŞKEN2| Gayrimenkul Danışmanı
+DEĞİŞKEN3| AÇIKLAMA METNİ
+DEĞİŞKEN4|KAYDET LİNKİ
+DEĞİŞKEN5|QR LİNKİ
+DEĞİŞKEN6| https://grc.com.tr
+https://grc.com.tr
+DEĞİŞKEN8|SABİT
+DEĞİŞKEN9|MAIL
+DEĞİŞKEN10|WEB
+DEĞİŞKEN11|ADRES

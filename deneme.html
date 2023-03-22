@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Örnek Sayfa</title>
+    <script>
+        function loadTxtFile() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var lines = xhr.responseText.split('\n');
+                    var name = lines[0] || 'Ad Soyad';
+                    var job = lines[1] || 'Meslek';
+                    document.getElementById('accountName').innerHTML = '<b>' + name + '</b><br>' + job;
+                }
+            };
+            xhr.open('GET', 'data.txt', true);
+            xhr.send();
+        }
+    </script>
+</head>
+<body onload="loadTxtFile()">
+    <div>
+        <span id="accountName">... ...</span>
+    </div>
+</body>
+</html>

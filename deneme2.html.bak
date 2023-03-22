@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQY80ZW51F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQY80ZW51F');
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+<style>       
+            div { 
+                font-family : 'Rajdhani' , serif ; 
+                font-size : 14px ; 
+            } 
+        </style> 
+<meta name="robots" content="index, follow">
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+		<meta name="language" content="Turkish">
+
+<link rel="icon" href="images/remax/fav-remax.ico" type="image/x-icon" />    
+
+
+    <!-- open graph description -->
+    <meta property="og:title" content="Nezaket BEYOĞLU | Gayrimenkul Danışmanı">
+    <meta property="og:description" content="RE/MAX GELİŞİM | Gayrimenkul Danışmanlık">
+    <meta property="og:type" content="https://remax.com.tr/danisman/16632/nezaket-beyoglu">
+    <meta property="og:url" content="https://dc.web.tr/dijital/nezaket-beyoglu.html">
+    <meta property="og:image" content="https://dc.web.tr/dijital/images/remax/nezaket-beyoglu.jpg">
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nezaket BEYOĞLU | Gayrimenkul Danışmanı">
+    <meta name="twitter:description" content="RE/MAX GELİŞİM | Gayrimenkul Danışmanlık">
+    <meta name="twitter:image" content="https://dc.web.tr/dijital/images/remax/nezaket-beyoglu.jpg">
+    <!-- open graph END -->
+
+
+
+    <title>Nezaket BEYOĞLU</title>
+
+    <!-- Kendo CSS -->
+    <link href="Content/kendoweb/kendo.common.min.css" rel="stylesheet" />
+    <link href="Content/kendoweb/kendo.rtl.min.css" rel="stylesheet" />
+    <link href="Content/kendoweb/kendo.default.min.css" rel="stylesheet" />
+    <link href="Content/kendoweb/kendo.default.mobile.min.css" rel="stylesheet" />
+    <link href="Content/kendomobile/kendo.mobile.all.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="Content/Site.css" rel="stylesheet">
+    <link href="Content/css-custom/style.customb1d6.css?q=1845bc29-10ec-4a27-8fa5-ffd25208896a" rel="stylesheet" />
+
+    <!-- Styles of Other Libraries -->
+    <link href="Content/fontawesome/css/all.min.css" rel="stylesheet" />
+    
+
+    <style>
+        body {
+            padding-top: 0px !important;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+        <script src="~/Scripts/html5shiv.js"></script>
+        <script src="~/Scripts/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/customJs/helpers.custom01b1.js?q=06b8dbd6-1dd9-4214-93e2-2f99df64864d"></script>
+    <script src="Scripts/customJs/modal.custom20c1.js?q=2b4d66b2-1bc8-4906-a98c-b30d9502110f"></script>
+
+    <!--kendo script for this page-->
+    <script src="Scripts/kendo.web/kendo.all.min.js"></script>
+    <script src="Scripts/kendo.web/kendo.aspnetmvc.min.js"></script>
+    <script src="Scripts/kendo.web/kendo.timezones.min.js"></script>
+    <script src="Scripts/kendo.web/cultures/kendo.culture.tr-TR.min.js"></script>
+
+    <!-- Scripts of Other Libraries -->
+    <script src="Content/fontawesome/js/all.min.js"></script>
+    
+
+    <script>
+        kendo.culture("tr-TR");
+        window.appPath = "https://dc.web.tr/";
+    </script>
+    <script type='text/javascript' src='../../platform-api.sharethis.com/js/sharethis.js#property=5ccaa00b36d0970012b88917&product=social-ab' async='async'></script>
+
+<script>
+    function degerleriDoldur() {
+        fetch('data.txt')
+            .then(response => response.text())
+            .then(text => {
+                const lines = text.split('\n');
+                const degisken1 = document.querySelector('[data-variable="DEĞİŞKEN1"]');
+                const degisken2 = document.querySelector('[data-variable="DEĞİŞKEN2"]');
+                const degisken3 = document.querySelector('[data-variable="DEĞİŞKEN3"]');
+                const degisken4 = document.querySelector('[data-variable="DEĞİŞKEN4"]');
+                const degisken5 = document.querySelector('[data-variable="DEĞİŞKEN5"]');
+                const degisken6 = document.querySelector('[data-variable="DEĞİŞKEN6"]');
+                const degisken7 = document.querySelector('[data-variable="DEĞİŞKEN7"]');
+                const degisken8 = document.querySelector('[data-variable="DEĞİŞKEN8"]');
+                const degisken9 = document.querySelector('[data-variable="DEĞİŞKEN9"]');
+                const degisken10 = document.querySelector('[data-variable="DEĞİŞKEN10"]');
+                const degisken11 = document.querySelector('[data-variable="DEĞİŞKEN11"]');
+
+                const link6 = document.querySelector('a[href="DEĞİŞKEN6"]');
+                const link7 = document.querySelector('a[href="DEĞİŞKEN7"]');
+                const link8 = document.querySelector('a[href="DEĞİŞKEN8"]');
+                const link10 = document.querySelector('a[href="DEĞİŞKEN10"]');
+
+                degisken1.innerHTML = lines[0];
+                degisken2.innerHTML = lines[1];
+                degisken3.innerHTML = lines[2];
+                degisken4.innerHTML = lines[3];
+                degisken5.innerHTML = lines[4];
+
+                degisken6.innerHTML = lines[5];
+                link6.href = lines[5];
+
+                degisken7.innerHTML = lines[6];
+                link7.href = lines[6];
+
+                degisken8.innerHTML = lines[7];
+                link8.href = lines[7];
+
+                degisken9.innerHTML = lines[8];
+
+                degisken10.innerHTML = lines[9];
+                link10.href = lines[9];
+
+                degisken11.innerHTML = lines[10];
+            })
+            .catch(err => {
+                console.error('Dosya okunamadı', err);
+            });
+    }
+</script>
+
+
+
+</head>
+
+<body onload="degerleriDoldur();">
+    <iframe id="msie_iframe" style="display:none"></iframe>
+    <div class="container body-content">
+        
+        
+
+
+    <link href="Content/css-custom/style.buttons.css" rel="stylesheet" />
+
+
+<div class="row">
+    <div class="col-xs-12 px-0">
+        <div class="col-md-8 col-xs-12 px-0">
+            <div id="cardBody-new">
+
+                <img class="cover" src='images/remax/kapak.jpg' />
+            </div>
+            <div id="cardUserDetails-new" style="padding: 1.5% 2%; background: #00599D;">
+
+                <img class="avatar" alt="" role="button" tabindex="0" src='images/remax/nezaket-beyoglu.jpg' style="width: 20%; left: 13%;">
+                <div class="fake-logo" style="width: 15%;"></div>
+               <b><span data-variable="DEĞİŞKEN1"></span></b>
+<br>
+				<b><span data-variable="DEĞİŞKEN2"></span></b>
+          </div>
+
+		   <br>
+		 <BR><p style="font-size:medium; margin:10px 40px"><b><span data-variable="DEĞİŞKEN3"></span><br><br>
+</p>
+
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="col-xs-12 px-0" style="margin-top:8px;">
+                <div class="col-md-4 col-xs-4 px-0">
+                    <a class="button button-orange" title="Telefon Rehberine Kaydet" style="width:100%" href="<span data-variable="DEĞİŞKEN4"></span>">
+                      <i class="fas fa-mobile-alt" style="font-size: 1.5em; margin-left: 0px;"></i><strong> Kaydet</strong>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-4 px-0">
+
+                    <a target="_blank" href="DEĞİŞKEN6" class="button button-purple" style="width:100%; padding-right:14px; padding-left:14px;">
+                       <i class="fas fa-qrcode" style="font-size:1.5em; margin-left: 0px;"></i><strong> QR</strong>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-4 px-0" style="padding-left: 0px;">
+<a class="button button-green" style="width:100%" target="_blank" href="" data-variable="DEĞİŞKEN7">
+  <i class="fab fa-whatsapp" style="font-size: 1.5em; margin-left: 0px;"></i><strong> Mesaj</strong>
+</a>
+                </div>
+            </div>
+
+                <a class="button" style="width:100%">
+                    <i class="fas fa-mobile-alt" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>DEĞİŞKEN8</strong>
+                </a>
+                            <a class="button" style="width:100%">
+                    <i class="fas fa-phone" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>DEĞİŞKEN9</strong>
+                </a>
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:DEĞİŞKEN10" class="button" style="width:100%">
+                    <i class="far fa-envelope" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>nezaket@</strong>
+                </a>
+                            <a target="_blank" rel="noopener noreferrer" href="DEĞİŞKEN11" class="button" style="width:100%">
+                    <i class="fas fa-home" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>remax.com.tr</strong>
+                </a>
+                    <a id="face-link" class="button" style="width:100%">
+                    <i class="fab fa-facebook-f" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>Facebook</strong>
+                </a>
+                <script>
+                    $("#face-link").click(function () {
+                        setTimeout(function () {
+                            window.location = "fb://facewebmodal/f?href=https://www.facebook.com/profile.php?id=100075182652140";
+                        }, 25);
+                        window.open("https://www.facebook.com/profile.php?id=100075182652140", '_blank');
+                    });                    
+                </script>
+                       
+					<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nezaket-beyo%C4%9Flu-65132521b/" class="button" style="width:100%">
+                    <i class="fab fa-linkedin" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>Linkedin</strong>
+                </a>
+					<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nezaketbeyogluremax/" class="button" style="width:100%">
+                    <i class="fab fa-instagram" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>Instagram</strong>
+                </a>
+					<a target="_blank" rel="noopener noreferrer" href="#" class="button" style="width:100%">
+                    <i class="fab fa-twitter" style="font-size:1.5em; margin-right: 10px;"></i>
+<strong>Twitter</strong>
+                </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//Adnan+Kahveci+Mah.+Erenler+Cad.+Beyaz+Evler+sit.+E+Blok+No:11+%C4%B0%C5%9Fyeri:22+Beylikd%C3%BCz%C3%BC+%2F+%C4%B0stanbul+Avrupa/@41.0034981,28.5973102,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14b55fd85413d8dd:0xcbe01fe43acfba5e!2m2!1d28.6323297!2d41.0034386" class="button" style="width:100%">
+                    <i class="fas fa-map-marker-alt" style="font-size:1.5em; margin-right: 10px;"></i>
+                    <strong>Navigasyon</strong>
+                </a>
+        </div>
+    </div>
+    
+
+</div>
+
+
+        <hr />
+        <footer>
+            <div class="row">
+                <div class="col-xs-12"><p>&copy; 2022 <a href="https://dc.web.tr" target="_blank">DC | Digital Card Systems</a> </p></div>
+                </div>
+        </footer>
+    </div>
+
+    
+
+
+<div class="modal  fade" id="modal-remote" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" style="width: 600px">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="top-close close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Kapat</span></button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(document).ready(function () {
+            loadModalClick();
+        });
+
+        loadModalClick();
+    </script>
+
+
+
+    
+
+
+<div class="modal  fade" id="modal-remote2" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog" style="width: 600px">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="top-close close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Kapat</span></button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        $(document).ready(function () {
+            loadModalClick2();
+        });
+
+        loadModalClick2();
+    </script>
+
+
+<!--bootstrap modal-->
+<script src="Scripts/bootstrap-multimodal.min.js"></script>
+
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/respond.min.js"></script>
+
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+
+    <!--for excel export of kendo ui-->
+    <script src="Scripts/kendo.web/jszip.min.js"></script>
+	<script src="load-data.js"></script>
+
+</body>
+
+<!-- GRC GRUP : https://grc.com.tr -->
+</html>
